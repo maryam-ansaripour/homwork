@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dictionary.style" />
+    <title>dictionary</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 500px;
+        height: 600px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 350px;
+      }
+      .item1 {
+        width: 250px;
+        height: 300px;
+        border: 1px solid black;
+        padding: 60px;
+        flex-direction: column;
+        background-color: bisque;
+      }
+      .item2 {
+        width: 250px;
+        height: 300px;
+        border: 1px solid black;
+        padding: 60px;
+        background-color: rgb(253, 129, 129);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item1">
+        <input type="text" id="in1" />
+        <br /><br />
+        <input type="text" id="in2" />
+        <br /><br />
+        <button onclick="push()">Add</button>
+      </div>
+      <div class="item2">
+        <input type="text" id="on1" />
+        <br /><br />
+        <input type="text" id="on2" />
+        <br /><br />
+        <button>transation</button>
+      </div>
+    </div>
+  </body>
+  <script></script>
+</html>
